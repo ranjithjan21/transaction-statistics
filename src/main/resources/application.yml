@@ -1,0 +1,13 @@
+spring:
+  application:
+    name:  transaction-statistics-app
+
+springfox.documentation.swagger.v2:
+  path: '/api-docs/swagger-2.0'
+  enable: true
+
+server:
+  port:  9002
+
+transaction:
+  expirySeconds: 60
